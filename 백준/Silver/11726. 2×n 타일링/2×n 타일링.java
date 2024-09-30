@@ -12,10 +12,6 @@ public class Main {
             System.out.println(1);
             return;
         }
-        if (n == 2) {
-            System.out.println(2);
-            return;
-        }
 
         rectangle[0] = 0;
         rectangle[1] = 1;
