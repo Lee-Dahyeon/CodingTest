@@ -12,7 +12,7 @@ public class Main {
         int k = Integer.parseInt(st.nextToken());
         int max=1000000000;
 
-        int[][] dp = new int[201][201];
+        long[][] dp = new long[201][201];
         for (int i = 0; i <= 200; i++) {
             for (int j = 0; j <= i; j++) {
                 if (i ==j || j == 0) dp[i][j] = 1;
